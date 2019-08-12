@@ -52,6 +52,8 @@ public class BST<Key extends Comparable<Key>, Value> {
         return x;
     }
 
+    public Key max(){ }
+
     public Key min(){ return min(root).key;}
     private Node min(Node x){
 
