@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/st3/hashST4/LinearProbingHashST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="1130">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -81,9 +81,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-246" />
+    <option name="y" value="247" />
     <option name="width" value="1383" />
-    <option name="height" value="788" />
+    <option name="height" value="476" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -218,14 +220,15 @@
       <workItem from="1565158717373" duration="76000" />
       <workItem from="1565591979878" duration="1575000" />
       <workItem from="1565676526416" duration="1771000" />
+      <workItem from="1565763012346" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15513000" />
+    <option name="totallyTimeSpent" value="16629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-246" y="247" width="1383" height="476" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/st3/hashST4/LinearProbingHashST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="1130">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
         </state>
       </provider>
     </entry>
