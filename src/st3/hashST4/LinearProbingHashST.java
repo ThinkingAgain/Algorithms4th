@@ -6,7 +6,8 @@ public class LinearProbingHashST<Key, Value> {
     private Key[] keys; // the keys
     private Value[] vals;   // the values
 
-    public LinearProbingHashST(){
+    public LinearProbingHashST(int cap){
+        M = cap;
         keys = (Key[]) new Object[M];
         vals = (Value[]) new Object[M];
     }
@@ -31,6 +32,17 @@ public class LinearProbingHashST<Key, Value> {
             if (keys[i].equals(key))
                 return vals[i];
         return null;
+    }
+
+    private void resize(int cap){
+        LinearProbingHashST<Key, Value> t;
+        t = new LinearProbingHashST<>(cap);
+        for (int i = 0; i < M; i++)
+            if (keys[i] != null)
+                t.put(keys[i], vals[i]);
+        keys = t.keys;
+        vals = t.vals;
+        M = t.M;
     }
 
     public void delete(Key key){
